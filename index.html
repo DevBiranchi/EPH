@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>EcoPulseHub</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link rel="icon" href="favicon_io/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,900&family=Roboto:wght@300&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- div .wrapp -->
+    <div id="luxy" class="wrapp">
+      <!-- div .header -->
+      <div id="cursor"></div>
+      <div id="cursor-blur"></div>
+      <div id="progressbar"></div>
+      <div id="scrollPath"></div>
+
+      <img id="logo" src="img/logo.png" alt="" />
+      <div id="hero-3"></div>
+      <div id="hero-4"></div>
+      <header class="header">
+        <h1 class="title" data-splitting>
+          <span class="title_paralax">Eco Pulse</span><br /><span class="stroke"
+            >Hub</span
+          >
+        </h1>
+        <div class="header__img">
+          <img src="img/1.jpg" alt="1" />
+        </div>
+        <div class="header__marq">
+          <div class="header__marq-wrapp">
+            <span class="header__marq-txt"
+              >Welcome to EcoPulseHub
+              <span class="header__marq-star">
+                <img src="img/star.svg" alt="" />
+              </span>
+            </span>
+            <span class="header__marq-txt"
+              >environmental awareness website
+              <span class="header__marq-star">
+                <img src="img/star.svg" alt="" />
+              </span>
+            </span>
+            <span class="header__marq-txt"
+              >environmental insights and
+              <span class="header__marq-star">
+                <img src="img/star.svg" alt="" />
+              </span>
+            </span>
+            <span class="header__marq-txt"
+              >sustainable living tips!
+              <span class="header__marq-star">
+                <img src="img/star.svg" alt="" />
+              </span>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <!-- div .about -->
+        <section class="about">
+          <div class="about__wrapp">
+            <div class="about__img">
+              <img src="img/2.jpg" alt="2" />
+            </div>
+            <div class="about__txt">
+              <h2 class="section-title">
+                abo<span class="stroke">ut</span>
+                <span class="section-title__square"></span>
+              </h2>
+              <p class="about__p">
+                Eco Pulse Hub is a digital space dedicated to promoting
+                environmental consciousness and sustainable practices. Join us
+                as we delve into the wonders of our planet, explore
+                environmental challenges, and discover simple yet impactful ways
+                to make a positive difference.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- div .benefits -->
+        <section class="benefits">
+          <div class="content">
+            <h2 class="section-title">
+              benef<span class="stroke">its</span>
+              <span class="section-title__square"></span>
+            </h2>
+            <div id="our-motto">
+              <img src="img/5.jpg" />
+              <div id="our-motto-in">
+                <h3>
+                  A Sustainable <br />
+                  Tomorrow
+                </h3>
+                <p>
+                  I believe in the profound impact that conscious environmental
+                  choices can have on our collective future. By fostering
+                  awareness and encouraging sustainable practices, we strive to
+                  create a better, more resilient environment for generations to
+                  come.
+                </p>
+              </div>
+              <img src="img/2.jpg" />
+            </div>
+
+            <ul class="benefits__list">
+              <li class="benefits__item">
+                <span class="benefits__num" data-speed="-200">/1</span>
+                <div class="card" id="card1">
+                  <div class="overlay">
+                    <h4>Enhanced Well Being</h4>
+                    <p>
+                      A pristine environment contributes significantly to our
+                      overall well-being. Clean air, unpolluted water, and
+                      thriving ecosystems create a harmonious space that
+                      positively impacts physical and mental health.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__num" data-speed="-150">/2</span>
+                <div class="card" id="card2">
+                  <div class="overlay">
+                    <h4>Biodiversity Preservation</h4>
+                    <p>
+                      A healthy environment sustains a rich diversity of plant
+                      and animal life. The delicate balance of ecosystems
+                      ensures the survival of numerous species, contributing to
+                      the intricate web of life on Earth.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="benefits__item">
+                <span class="benefits__num" data-speed="-150">/3</span>
+                <div class="card" id="card3">
+                  <div class="overlay">
+                    <h4>Economic Prosperity</h4>
+                    <p>
+                      Investing in environmental sustainability is an investment
+                      in our economic future. Green technologies and renewable
+                      energy sources not only reduce our ecological footprint
+                      but also drive innovation and create new job
+                      opportunities.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- div .work -->
+        <section class="work">
+          <div class="content">
+            <h2 class="section-title">
+              Solut<span class="stroke">ions</span>
+              <span class="section-title__square"></span>
+            </h2>
+          </div>
+
+          <div class="work__wrapp">
+            <div class="work__item" data-speed="-300">
+              <span class="work__item-num" data-speed="-1000"
+                >Pollution free development</span
+              >
+              <div class="work__item-img">
+                <img src="img/3.jpg" alt="3" />
+              </div>
+            </div>
+            <div class="work__item" data-speed="-600">
+              <span class="work__item-num" data-speed="-500">Use of Bins</span>
+              <div class="work__item-img">
+                <img src="img/plant.jpeg" alt="4" />
+              </div>
+            </div>
+            <div class="work__item" data-speed="-700">
+              <span class="work__item-num" data-speed="-700"
+                >Awareness Programs</span
+              >
+              <div class="work__item-img">
+                <img src="img/5.jpg" alt="5" />
+              </div>
+            </div>
+            <div class="work__item" data-speed="-400">
+              <span class="work__item-num" data-speed="-200"
+                >Community Cleaniness Work</span
+              >
+              <div class="work__item-img">
+                <img src="img/ophihy.jpg" alt="6" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- div .serv -->
+        <section class="serv">
+          <div class="content">
+            <h2 class="section-title">
+              Take&nbsp;<span class="stroke">Action</span>
+              <span class="section-title__square"></span>
+            </h2>
+
+            <div class="serv__list">
+              <div class="serv__item">
+                <span class="serv__item-arrow" data-speed="500">
+                  <img src="img/icons8-leaf-96.png" alt="" />
+                </span>
+                <div class="serv__item-txt">
+                  <span class="serv__item-text">Plant tees</span>
+                </div>
+              </div>
+              <div class="serv__item">
+                <span class="serv__item-arrow" data-speed="400">
+                  <img src="img/icons8-leaf-96.png" alt="" />
+                </span>
+                <div class="serv__item-txt">
+                  <span class="serv__item-text">Use Bins</span>
+                </div>
+              </div>
+              <div class="serv__item">
+                <span class="serv__item-arrow" data-speed="800">
+                  <img src="img/icons8-leaf-96.png" alt="" />
+                </span>
+                <div class="serv__item-txt">
+                  <span class="serv__item-text">Stop Polluting</span>
+                </div>
+              </div>
+              <div class="serv__item">
+                <span class="serv__item-arrow" data-speed="600">
+                  <img src="img/icons8-leaf-96.png" alt="" />
+                </span>
+                <div class="serv__item-txt">
+                  <span class="serv__item-text">Spread awareness</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <h2 class="section-title other">
+        Nature Inclu<span class="stroke">des</span>
+        <span class="section-title__square"></span>
+      </h2>
+
+      <div class="wrapp1">
+        <div class="menu-img">
+          <img id="1-bg__img" src="img/1ocean.jpg" alt="1" />
+          <img id="2-bg__img" src="img/2land.jpg" alt="2" />
+          <img id="3-bg__img" src="img/1air.jpeg" alt="3" />
+        </div>
+
+        <ul class="menu">
+          <li class="menu__item" data-id="1">
+            <a target="_blank" href="index-3.html" class="menu__link">Ocean</a>
+          </li>
+          <li class="menu__item" data-id="2">
+            <a target="_blank" href="index-2.html" class="menu__link">Land</a>
+          </li>
+          <li class="menu__item" data-id="3">
+            <a target="_blank" href="index-4.html" class="menu__link">Air</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div id="menuu">
+        <h1>Nature</h1>
+        <ul class="menu">
+          <li class="menu__item" data-id="1">
+            <a href="#" class="menu__link">Earth</a>
+          </li>
+          <li class="menu__item" data-id="2">
+            <a href="#" class="menu__link">Moon</a>
+          </li>
+          <li class="menu__item" data-id="3">
+            <a href="#" class="menu__link">Mars</a>
+          </li>
+          <li class="menu__item" data-id="4">
+            <a href="#" class="menu__link">Jupiter</a>
+          </li>
+        </ul>
+      </div> -->
+
+      <!-- div .footer -->
+      <footer class="footer">
+        <div class="footer__div">
+          <div class="logobox">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="letter">
+            <span data-speed="-300">E</span>
+            <span data-speed="100">c</span>
+            <span data-speed="300">o</span>
+            <span data-speed="-300">P</span>
+            <span data-speed="350">u</span>
+            <span data-speed="200">l</span>
+            <span data-speed="-310">s</span>
+            <span data-speed="200">e</span><br />
+            <span data-speed="-340">H</span>
+            <span data-speed="-100">u</span>
+            <span data-speed="300">b</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- /div .wrapp END -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="js/splitting.min.js"></script>
+    <script src="js/luxy.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
